@@ -6,8 +6,7 @@
 
 import '../css/style.css';
 import TableBoard from '../components/table-board/table-board';
-import Filter from '../components/filter/filter';
+// import Filter from '../components/filter/filter';
 
 const board = new TableBoard(document.querySelector('.table-board'));
-const filter = new Filter(document.querySelector('.filter-widget-form'), board.filter);
-board.renderBoard(board.tasks);
+board.renderBoard();
