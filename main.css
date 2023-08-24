@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.table-board {
+  width: 350px;
+  min-height: 600px;
+  margin-left: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  border-radius: 30px;
+  border-top: 30px solid lightgray;
+  border-bottom: 30px solid lightgray;
+  border-left: 10px solid lightgray;
+  border-right: 10px solid lightgray;
+  background-color: white;
+}
+
+.filter-widget-form {
+  margin-top: 10px;
+}
+
+.task-section-title {
+  margin-top: 10px;
+}
+
+.task-section {
+  list-style-type: none;
+}
+
+.filter-widget {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-text {
+  width: 300px;
+  min-height: 40px;
+  padding: 3px;
+}
+
+.task {
+  width: 300px;
+  min-height: 50px;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 3px solid gray;
+}
+
+.icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=main.css.map*/
