@@ -1,12 +1,7 @@
-// import Table from '../components/table-rendering/Table';
-// import '../css/style.css';
-
-// const table = new Table(document.querySelector('.table'));
-// table.startGame();
-
 import '../css/style.css';
-import TableBoard from '../components/table-board/table-board';
-// import Filter from '../components/filter/filter';
+import Filter from '../components/filter/Filter';
+import TableBoard from '../components/table-board/Table-board';
 
+const filterElement = new Filter(document.querySelector('.filter-widget-form'));
 const board = new TableBoard(document.querySelector('.table-board'));
-board.renderBoard();
+board.renderBoard(board.tasks);
