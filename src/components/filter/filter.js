@@ -37,7 +37,7 @@ export default class Filter {
     if (!text) {
       this.board.renderBoard(this.board.tasks);
     }
-    const filtered = this.board.tasks.filter((el) => findMatch(el.text, text));
+    const filtered = this.board.tasks.filter((el) => el.pinned || findMatch(el.text, text));
     this.board.renderBoard(filtered);
   }
 }
